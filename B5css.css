@@ -4,31 +4,22 @@
 	margin: 0px;
 box-sizing: border-box;}
 .header {
-background-color:white;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 20px 135px;
+	background-color:white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 135px;
 font-size: 20px;
 font-style: normal;
-font-family: 'PT Serif', serif;
-font-family: 'Roboto Condensed', sans-serif;
-}
-.header a:hover{
-	padding: 20px; 
-	
 }
 .backgroundimg{
-	object-fit:fill;
-	display: flex;
+	object-fit: contain;
 }
 .header ul{
 	display: flex;
-	align-items:baseline;
-	width: 55%;
+	width: 40%;
 	justify-content: space-between;
-	font-size: 20px;
-	padding:1px;
+	font-size: 20px
 }
 .animation1{
 	background-color: black;
@@ -41,7 +32,6 @@ font-family: 'Roboto Condensed', sans-serif;
 	color:white;
 	border-radius:200px;
 	box-shadow: 0px 1px 32px 0px rgba(0, 0, 0, 0.3);
-	transition: 0.7s;
 }
 .chumauxanh {
 	color: #3e8e41;
@@ -49,7 +39,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 .chumauxanh:hover{
 	border-radius:20px;
-	transition:1s;
+	transition:0.7s;
 }
 .Noidung1 {
 	background-image: url("Self-Portrait-artist-panel-board-Vincent-van-Gogh-1887.webp");
@@ -108,17 +98,17 @@ text-align: center;
 .box1 {	
 	padding: 30px 0px;
 	background-color:white;
+	transition: 0.7s;
+	
 }
 .box1:hover{
 	box-shadow: 0px 16px 32px 23px rgba(10, 130	, 20, 0.3);
 	border-radius: 20px;
 	background-color:#FBFBFB;
 	color:forestgreen;
-	transition: 1s;
 }
 .box1:hover a{
 	background-color:#3e8e41;
-	transition: 1s;
 	color: white;
 	
 }
@@ -151,9 +141,6 @@ height: auto;
 .img1 {
  width:330px;
 }
-.img1:hover{	
-	transition:3s;
-}
 .img2{
 width:330px;
 }
@@ -165,17 +152,18 @@ width:330px;
 	font-size:45px;
 	color:white;
 }
+
 .click{
+border: none;
+  outline: none;
+  padding: 1px 5px;
   background-color: white;
+  cursor: pointer
 }
 .click:hover{
-	color:aliceblue;
-	background-color:#3e8e41;
-	border-radius: 200px;
-	padding:10px 30px;
-	align-items:baseline;
-	transition: 0.7s;
-	box-shadow: 0px 1px 32px 0px rgba(0, 0, 0, 0.3);
+	color:white;
+	background-color:darkseagreen;
+		border-radius: 40%
 }
 .trang2 h1 {
 color: forestgreen;
@@ -193,16 +181,13 @@ text-align: center;
 	padding: 15px 20px;
 	background-color: black;
 	color:white;
-	
 }
 .trang2 a:hover{
 	background-color:#3e8e41;
 	color:white;
-	border-radius: 200px;
-	transition: 1s;
+	border-radius: 20px;
+	transition: 0.3s;
 	box-shadow: 0px 1px 32px 0px rgba(0, 0, 0, 0.3);
-	padding:23px 38px
-
 }
 .hover1 {
 	font-weight: 900px;
@@ -214,36 +199,4 @@ text-align: center;
 	background-image: url("van-gogh-1663090__340.jpg");
 	object-fit: contain;
 	padding:100px;
-}
-.video{
-	width: 600px;
-    height: 400px;
-    margin: 0 ;
-	display: flex;
-	justify-content:space-between;
-}
-.video1{
-	width: 600px;
-    height: 400px;
-    margin: 10 ;
-	display: flex;
-	justify-content: flex-start;
-}
-.video2{
-	width:600px;
-	height:400px;
-	margin:10;
-	display: flex;
-	justify-content: flex-end;
-}
-.boxvideo{
-	display: flex;
-	justify-content: space-between;
-}
-.noidung2 a1{
-
-	text-align: center;
-	color:aliceblue;
-	padding:10px 10px;
-	background-color: aliceblue;
 }
