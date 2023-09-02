@@ -17,11 +17,9 @@ font-style: normal;
 }
 .header ul{
 	display: flex;
-	align-items:baseline;
-	width: 55%;
+	width: 40%;
 	justify-content: space-between;
-	font-size: 20px;
-	padding:1px;
+	font-size: 20px
 }
 .animation1{
 	background-color: black;
@@ -44,7 +42,7 @@ font-style: normal;
 	transition:0.7s;
 }
 .Noidung1 {
-	background-image: url("New folder (2)/Self-Portrait-artist-panel-board-Vincent-van-Gogh-1887.webp");
+	background-image: url("Self-Portrait-artist-panel-board-Vincent-van-Gogh-1887.webp");
 	object-fit: fill;
 }
 .pnd1 h1{
@@ -156,15 +154,16 @@ width:330px;
 }
 
 .click{
+border: none;
+  outline: none;
+  padding: 1px 5px;
   background-color: white;
+  cursor: pointer
 }
 .click:hover{
 	color:white;
 	background-color:darkseagreen;
-	border-radius: 200px;
-	padding:10px 30px;
-	align-items:baseline;
-	transition: 0.7s;
+		border-radius: 40%
 }
 .trang2 h1 {
 color: forestgreen;
@@ -182,7 +181,6 @@ text-align: center;
 	padding: 15px 20px;
 	background-color: black;
 	color:white;
-	
 }
 .trang2 a:hover{
 	background-color:#3e8e41;
@@ -190,7 +188,6 @@ text-align: center;
 	border-radius: 20px;
 	transition: 0.3s;
 	box-shadow: 0px 1px 32px 0px rgba(0, 0, 0, 0.3);
-
 }
 .hover1 {
 	font-weight: 900px;
@@ -202,10 +199,4 @@ text-align: center;
 	background-image: url("van-gogh-1663090__340.jpg");
 	object-fit: contain;
 	padding:100px;
-}
-.video{
-	width: 300px;
-    height: 200px;
-    margin: 0 auto;
-	display: block;
 }
